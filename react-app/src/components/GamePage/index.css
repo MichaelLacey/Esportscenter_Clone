@@ -1,0 +1,138 @@
+.gamepageDiv {
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden
+}
+.topDiv {
+    width: 70%;
+    height: 40%;
+    margin: 0 auto;
+    margin-top: 3%;
+    display: flex;
+}   
+.leftDiv {
+    height: 100%;
+    width: 50%;
+    margin-right: 20%;
+}
+.leftGameNews{
+    height: 100%;
+}
+.gameTitle > h2{
+    margin-top: 0%;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #000;
+}
+.imgandtitle{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.imgandtitle >img {
+    height: 100%;
+    width: 100%;
+    filter: brightness(50%);
+}
+.imgandtitle > h3{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    font-size: larger;
+    bottom: 10%;
+    left: 3%;
+}
+.imgandtitle > p{
+    color: white;
+    position: absolute;
+    bottom: 80%;
+    left: 3%;
+}
+
+.rightDiv{
+    width: 40%;
+}
+
+.rightNewstopmid{   
+    height: 30%;
+    display: flex;
+    margin-bottom: 2%;
+    background-color: white;
+}
+.rightNewsbot{
+    height: 30%;
+    display: flex;
+    background-color: white;
+}
+
+.titleAndDateRight{
+    display: flex;
+    flex-direction: column;
+}
+.titleAndDateRight >h4,p{
+    margin: 0px;
+    margin-left: 5%;
+}
+.titleAndDateRight>p{
+    margin: 0px;
+    margin-left: 5%;
+    margin-top: auto;
+    color: gray;
+}
+.rightNewstopmid >img{
+    width: 20%;
+    height: 70%;
+    margin: auto 0;
+    margin-left: auto;
+}
+.rightNewsbot >img{
+    width: 20%;
+    height: 80%;
+    margin: auto 0;
+    margin-left: auto;
+}
+
+/* latest div  */
+.latestDiv {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.latestDiv >h2 {
+    border-bottom: 3px solid #000;
+}
+.outerNewsMap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.newsMapped {
+    background-color: white;
+    height: 90px;
+    width: 49%;
+    margin-bottom: 2%;
+    display: flex;
+}
+.rightSideNewsMap{
+     display: flex;
+     flex-direction: column;
+}
+.rightSideNewsMap >p,h4{
+    margin: 0px;
+    margin-left: 3%;
+}
+.rightSideNewsMap > P{
+    margin-top: auto;
+    margin-bottom: 2%;
+}
+.imgThenTitle{
+    max-width: 20%;
+}
+.imgThenTitle>img{
+    width: 100%;
+}

@@ -13,3 +13,10 @@ def all_games():
     games = Game.query.all()
     return { 'games': [ game.to_dict() for game in games ] }
     # return [ game.to_dict() for game in games ] 
+
+@game_routes.route('/<int:game_id>')
+def one_game(game_id):
+    """
+    Query for one game by gameId in the url
+    """
+    return Game.query.get(game_id).to_dict()

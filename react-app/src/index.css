@@ -1,1 +1,12 @@
 /* TODO Add site wide styles */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(235,235,235);
+    height: 100%;
+    overflow-x: hidden;
+}
+html{
+    height: 100%;
+
+}
