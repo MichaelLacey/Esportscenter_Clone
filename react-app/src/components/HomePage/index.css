@@ -5,26 +5,29 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-} 
-.title{
+}
+
+.title {
     font-weight: bolder;
     font-size: x-large;
     text-align: center;
     margin-bottom: 5%;
-}   
+}
+
 .trending {
     width: 25%;
-    /* height: 398px; */
     height: 100%;
 }
-.trendingTopStories{
+
+.trendingTopStories {
     width: 100%;
     height: 400px;
     margin-top: 5%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: flex-end;
 }
+
 .games {
     width: 100%;
     height: 87%;
@@ -32,29 +35,35 @@
     font-weight: bold;
     background-color: white;
 }
-.games > div{
+
+.games>div {
     color: black;
     display: flex;
     justify-content: center;
     cursor: pointer;
 }
-.games>div:hover{
+
+.games>div:hover {
     background-color: lightgray;
 }
-#gamesP{
+
+#gamesP {
     text-align: center;
     height: 16.666667%;
 }
-#gamesPtop{
+
+#gamesPtop {
     text-align: center;
     height: 16.666667%;
 }
-#gamesPtop>p{
+
+#gamesPtop>p {
     height: 16.666667%;
     text-align: center;
     margin: auto 0;
 }
-#gamesPbot>p{
+
+#gamesPbot>p {
     height: 18.666667%;
     height: fit-content;
     text-align: center;
@@ -62,10 +71,12 @@
     margin-bottom: 0px;
     padding-bottom: 16px;
 }
+
 #gamesP>p {
     height: 16.666667%;
     margin: auto 0;
 }
+
 #borderwidth {
     width: 80%;
     border-bottom: 1px solid lightgray;
@@ -78,26 +89,29 @@
 /* Fall guys div  */
 .fallguysdiv {
     margin-top: auto;
-    width: 30%;
+    width: 40%;
     height: 87%;
-    /* height: 348px; */
     display: flex;
     flex-direction: column;
+    align-self: flex-end;
 }
-.fallguysdiv > img{
+
+.fallguysdiv>img {
     margin-top: auto;
     height: 65%;
     width: 100%;
     margin-bottom: 0px;
     padding: 0px;
 }
-#fallguyspdiv{
+
+#fallguyspdiv {
     background-color: white;
     height: 35%;
     margin: 0px;
     padding: 0px;
 }
-#fallguyspdiv>p{
+
+#fallguyspdiv>a {
     /* height: 100%; */
     margin: 0px;
     padding: 0px;
@@ -105,34 +119,170 @@
     margin-top: 5%;
     font-weight: bold;
 }
-
+#fallguyspdiv>a:hover{
+    color: lightskyblue;
+    cursor: pointer;
+}
 
 /* top stories div */
 .topStories {
     margin-top: auto;
-    width: 35%; 
+    width: 30%;
     /* height: 398px; */
     height: 100%;
 }
 
-.reads{
+.reads {
     height: 87%;
     background-color: white;
     display: flex;
     flex-direction: column;
 }
-.reads >div {
+
+.reads>div {
     height: 20%;
     margin: auto 0;
     margin-left: 2%;
     color: black;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
-.reads>div:hover{
+
+.readDivs>a:hover {
     color: lightskyblue;
     cursor: pointer;
 }
-.readDivs>p {
+
+.readDivs>a {
+    /* margin-top: 5%; */
+    margin: auto 0;
+}
+.readsATag{
+    width: 90%;
+    color: black;
+    text-decoration: none;
+    margin: auto 0;
+    text-align: center;
+}
+
+/* latest e sports div  */
+.latestEsports {
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+.leftLatestEsports{
+    width: 25%;
+}
+
+.followdiv {
+    background-color: white;
+    margin-bottom: 5%;
+}
+.divlinkedin{
+    height: 10px;
+}
+.latestMid {
+    width: 40%;
+}
+
+#borderwidthLatestmid {
+    margin-bottom: 5%;
+    border-bottom: 3px solid #000;
+}
+
+.popularOrgs {
+    background-color: white;
+}
+.socialMediadiv {
+    display: flex;
+    margin-bottom: 4%;
+    margin-left: 4%;
+}
+.socialMediadiv>p{
+    margin: 0px;
+    line-height: 40px;
+    font-size: small;
+    text-align: center;
+    width: 70%;
+    color: darkslategrey;
+}
+.socialMediadiv>img{
+    width: 10%;
+    height: 5%;
+    margin: auto 0;
+}
+#borderwidthLatest {
+    border-bottom: 1px solid #000;
+    width: 80%;
+    height: 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.followTitle {
+    font-size: small;
+    color: black;
+    text-align: center;
+}
+.esportsRightDiv{
+    width: 30%;
+}
+.sportsOrg{
+    display: flex;
+    margin: 0px;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    text-align: center;
+    line-height: 40px;
+}
+.sportsOrg>img{
+    width: 10%;
+    height: 5%;
+    margin: auto 0;
+}
+.sportsOrg>p{
+    margin: 0px;
+    line-height: 40px;
+    /* font-size: small; */
+    text-align: center;
+    width: 70%;
+    color: darkslategrey;
+}
+.midNewsLatest {
+    background-color: white;
+    margin-bottom: 5%;
+    display: flex;
+    height: 30%;
+}
+.midNewsLatest>img{
+    width: 30%;
+    height: 88%;
+    margin: auto 0;
+    margin-left: 2%;
+}
+.midNewsLatest>p{
+    height: 100%;
+    width: 60%;
     margin-top: 5%;
 }
-/* latest e sports div  */
+.esportsNews {
+    background-color: white;
+    margin-bottom: 5%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+}
+.esportsNews>img{
+    height: 80%;
+}
+.esportsNews>p{
+    margin: 0px;
+    height: 15%;
+    text-align: center;
+}

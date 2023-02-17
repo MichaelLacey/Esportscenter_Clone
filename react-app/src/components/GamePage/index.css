@@ -132,6 +132,8 @@
 }
 .imgThenTitle{
     max-width: 20%;
+    margin: auto 0;
+    margin-left: 1%;
 }
 .imgThenTitle>img{
     width: 100%;
