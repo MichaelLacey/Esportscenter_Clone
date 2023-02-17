@@ -80,10 +80,10 @@ def seed_news():
     db.session.add(gta4)
     db.session.add(gta5)
 
-    halo1 = News(title="Every Halo Infinite vehicles: Banshee, Mongoose, Warthog and more", image_url='https://static.wixstatic.com/media/ddb70a_094a67be1113407c8df29609899cfbed~mv2.jpg/v1/fill/w_233,h_132,fp_0.50_0.50,q_90,enc_auto/ddb70a_094a67be1113407c8df29609899cfbed~mv2.jpg', date='Oct 11, 2021', game_id=5, user_id=1)
-    halo2 = News(title="Halo TV Series Premiere Date and Trailer", image_url='https://static.wixstatic.com/media/a3e85a_ed4b265615264dc4b71f90141ccec89a~mv2.jpg/v1/fill/w_233,h_132,fp_0.50_0.50,q_90,enc_auto/a3e85a_ed4b265615264dc4b71f90141ccec89a~mv2.jpg', date='Jan 05, 2022', game_id=5, user_id=1)
-    halo3 = News(title="Every Halo Infinite vehicles: Banshee, Mongoose, Warthog and more", image_url='https://static.wixstatic.com/media/ddb70a_094a67be1113407c8df29609899cfbed~mv2.jpg/v1/fill/w_233,h_132,fp_0.50_0.50,q_90,enc_auto/ddb70a_094a67be1113407c8df29609899cfbed~mv2.jpg', date='Jan 11, 2022', game_id=5, user_id=1)
-    halo4 = News(title="Halo TV Series Premiere Date and Trailer", image_url='https://static.wixstatic.com/media/a3e85a_ed4b265615264dc4b71f90141ccec89a~mv2.jpg/v1/fill/w_233,h_132,fp_0.50_0.50,q_90,enc_auto/a3e85a_ed4b265615264dc4b71f90141ccec89a~mv2.jpg', date='Jan 30, 2022', game_id=5, user_id=1)
+    halo1 = News(title="Every Halo Infinite vehicles: Banshee, Mongoose, Warthog and more", image_url='https://static.wixstatic.com/media/ddb70a_094a67be1113407c8df29609899cfbed~mv2.jpg/v1/fill/w_233,h_132,fp_0.50_0.50,q_90,enc_auto/ddb70a_094a67be1113407c8df29609899cfbed~mv2.jpg', date='Oct 11, 2021', game_id=6, user_id=1)
+    halo2 = News(title="Halo TV Series Premiere Date and Trailer", image_url='https://static.wixstatic.com/media/a3e85a_ed4b265615264dc4b71f90141ccec89a~mv2.jpg/v1/fill/w_233,h_132,fp_0.50_0.50,q_90,enc_auto/a3e85a_ed4b265615264dc4b71f90141ccec89a~mv2.jpg', date='Jan 05, 2022', game_id=6, user_id=1)
+    halo3 = News(title="Every Halo Infinite vehicles: Banshee, Mongoose, Warthog and more", image_url='https://static.wixstatic.com/media/ddb70a_094a67be1113407c8df29609899cfbed~mv2.jpg/v1/fill/w_233,h_132,fp_0.50_0.50,q_90,enc_auto/ddb70a_094a67be1113407c8df29609899cfbed~mv2.jpg', date='Jan 11, 2022', game_id=6, user_id=1)
+    halo4 = News(title="Halo TV Series Premiere Date and Trailer", image_url='https://static.wixstatic.com/media/a3e85a_ed4b265615264dc4b71f90141ccec89a~mv2.jpg/v1/fill/w_233,h_132,fp_0.50_0.50,q_90,enc_auto/a3e85a_ed4b265615264dc4b71f90141ccec89a~mv2.jpg', date='Jan 30, 2022', game_id=6, user_id=1)
 
     db.session.add(halo1)
     db.session.add(halo2)
@@ -123,7 +123,7 @@ def seed_news():
     db.session.add(valorant4)
     db.session.add(valorant5)
     db.session.add(valorant6)
-    
+
     db.session.commit()
 
 def undo_news():
