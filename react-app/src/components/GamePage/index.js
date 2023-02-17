@@ -13,9 +13,6 @@ export default function GamePage() {
     const game = useSelector(state => state.game)
     const news = Object.values(useSelector(state => state.news));
 
-    console.log('game news', news);
-    console.log('game', game)
-
     useEffect(() => {
         dispatch(getGameNewsThunk(gameId))
         dispatch(getOneGameThunk(gameId))
