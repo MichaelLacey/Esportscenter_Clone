@@ -1,8 +1,8 @@
-"""Creating the database
+"""Creating Database
 
-Revision ID: e0e25ba3c570
+Revision ID: 625959bfe189
 Revises: 
-Create Date: 2023-02-16 19:06:03.195727
+Create Date: 2023-02-17 03:24:28.726579
 
 """
 from alembic import op
@@ -13,7 +13,7 @@ environment = os.getenv("FLASK_ENV")
 SCHEMA = os.environ.get("SCHEMA")
 
 # revision identifiers, used by Alembic.
-revision = 'e0e25ba3c570'
+revision = '625959bfe189'
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -55,7 +55,6 @@ def upgrade():
     )
     if environment == "production":
         op.execute(f"ALTER TABLE news SET SCHEMA {SCHEMA};")
-
     # ### end Alembic commands ###
 
 
