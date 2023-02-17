@@ -11,10 +11,10 @@ class News(db.Model):
 
 
     id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(40), nullable=False)
+    title = db.Column(db.Text, nullable=False)
     # description = db.Column(db.text, nullable=False)
     image_url = db.Column(db.Text)
-    date = db.Column(db.String(45) )
+    date = db.Column(db.Text )
     game_id = db.Column(db.Integer, db.ForeignKey(add_prefix_for_prod('games.id')))
     user_id = db.Column(db.Integer, db.ForeignKey(add_prefix_for_prod('users.id')))
 

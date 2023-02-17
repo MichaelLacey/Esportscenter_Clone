@@ -11,7 +11,7 @@ class Game(db.Model):
 
 
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(40), nullable=False)
+    name = db.Column(db.Text, nullable=False)
 
 
     def to_dict(self):
