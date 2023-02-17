@@ -34,25 +34,31 @@ export default function Homepage() {
 
                 <div className="topStories">
 
-                <div className="title">TOP STORIES</div>
+                    <div className="title">TOP STORIES</div>
+
                     <div className="reads">
-                    <p>God of War Ragnarok is Coming This November!!!</p>
-                    <div id='borderwidth'></div>
-                    <p>Esports To Grow Even More, Sony Makes a Big Investment</p>
-                    <div id='borderwidth'></div>
-                    <p>Multiversus Free To Play Beta Has Now Released!</p>
-                    <div id='borderwidth'></div>
-                    <p>Popular Youtube Streamer, IShowSpeed, Almost Burns Down His House With Fireworks</p>
-                    <div id='borderwidth'></div>
-                    <p>GTA 6 Rumored To Have In-game Crypto Purchases?!</p>
+                        <div className="readDivs"><p>God of War Ragnarok is Coming This November!!!</p></div>
+                        <div id='borderwidth'></div>
+                        <div className="readDivs"><p>Esports To Grow Even More, Sony Makes a Big Investment</p></div>
+                        <div id='borderwidth'></div>
+                        <div className="readDivs"><p>Multiversus Free To Play Beta Has Now Released!</p></div>
+                        <div id='borderwidth'></div>
+                        <div className="readDivs"><p>Popular Youtube Streamer, IShowSpeed, Almost Burns Down His House With Fireworks</p></div>
+                        <div id='borderwidth'></div>
+                        <div className="readDivs"><p>GTA 6 Rumored To Have In-game Crypto Purchases?!</p></div>
                     </div>
 
                 </div>
 
             </div>
             <div className="latestEsports">
+
+                {/* <div className="followdiv">
+                    <div className="followTitle">FOLLOW ESPORTSCENTER</div>
+                    <div id='borderwidthLatest'></div>
+                </div> */}
             </div>
 
-        </div>
+        </div >
     );
 };
